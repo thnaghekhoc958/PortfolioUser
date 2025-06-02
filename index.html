@@ -2,50 +2,45 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio - Dương Lê Tiến Tấn</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <div class="dashboard">
-    <aside class="sidebar neumorphism">
-      <div class="avatar"></div>
-      <h2>Dương Lê Tiến Tấn</h2>
+  <main class="container">
+    <section class="profile-card neumorphism">
+      <img src="assets/img/avatar.png" alt="Avatar">
+      <h1>Dương Lê Tiến Tấn</h1>
       <p>Thực tập sinh phát triển phần mềm</p>
-      <ul class="info">
-        <li><i class="fa fa-envelope"></i> duongletientan2108@gmail.com</li>
-        <li><i class="fa fa-phone"></i> 0395004026</li>
-        <li><i class="fa fa-map-marker"></i> Bình Dương</li>
-      </ul>
-      <div class="skills">
-        <h3>Kỹ năng</h3>
-        <span>HTML/CSS(SCSS), Javascript</span>
-        <span>NodeJs, Express</span>
-        <span>ReactJS</span>
-        <span>Machine Learning, NLP</span>
+    </section>
+
+    <section class="card-group">
+      <div class="card neumorphism">
+        <h2>📧 Thông tin liên hệ</h2>
+        <p>Email: duongletientan2108@gmail.com</p>
+        <p>Phone: 0395004026</p>
+        <p>Địa chỉ: Phú Giáo, Bình Dương</p>
       </div>
-    </aside>
-    <main class="content">
-      <section class="card neumorphism animate">
-        <h3>Mục tiêu nghề nghiệp</h3>
-        <p>Tôi mong muốn phát triển kỹ năng lập trình và kiến thức chuyên ngành thông qua các dự án thực tế...</p>
-      </section>
-      <section class="card neumorphism animate">
-        <h3>Học vấn</h3>
-        <p>Đại học Thủ Dầu Một (2021 - Hiện tại)</p>
-      </section>
-      <section class="card neumorphism animate">
-        <h3>Dự án cá nhân</h3>
+
+      <div class="card neumorphism">
+        <h2>🛠 Kỹ năng</h2>
         <ul>
-          <li>
-            <b>BookingCare</b> (Fullstack Developer)<br>
-            <a href="#">Frontend</a> | <a href="#">Backend</a>
-          </li>
+          <li>HTML, SCSS, JavaScript</li>
+          <li>ReactJS, NodeJS (Express)</li>
+          <li>AI/NLP: DistilBERT, HuggingFace</li>
         </ul>
-      </section>
-    </main>
-  </div>
-  <script src="script.js"></script>
+      </div>
+
+      <div class="card neumorphism">
+        <h2>📁 Dự án nổi bật</h2>
+        <ul>
+          <li><a href="https://github.com/thnaghekhoc958/BookingCare-Frontend" target="_blank">BookingCare - Hệ thống khám bệnh</a></li>
+          <li><a href="https://github.com/thnaghekhoc958/Health-Diagnosis" target="_blank">AI Chẩn đoán bệnh</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
 </body>
-</html> 
+</html>
